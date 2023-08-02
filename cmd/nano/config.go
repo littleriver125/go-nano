@@ -1,6 +1,8 @@
-package config
+package main
 
-import "littleriver.cc/go-nano/nano/node/proto"
+import (
+	"littleriver.cc/go-nano/nano/node/proto"
+)
 
 type Config struct {
 	Addr      string        `json:"addr"`
@@ -9,3 +11,7 @@ type Config struct {
 	Peers     []string      `json:"peers"`
 	Network   proto.Network `json:"network"`
 }
+
+//func makeFullNode(ctx *cli.Context) (*node.Node, ethapi.Backend) {
+//
+//}
