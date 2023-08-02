@@ -81,7 +81,7 @@ func init() {
 	app.Copyright = "Copyright 2013-2023 The go-nano Authors"
 	app.Commands = []*cli.Command{
 		//// See chaincmd.go:
-		//initCommand,
+		initCommand,
 		//importCommand,
 		//exportCommand,
 		//importPreimagesCommand,

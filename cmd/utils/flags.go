@@ -27,4 +27,10 @@ var (
 		//RemoteDBFlag,
 		//HttpHeaderFlag,
 	}
+
+	CachePreimagesFlag = &cli.BoolFlag{
+		Name:     "cache.preimages",
+		Usage:    "Enable recording the SHA3/keccak preimages of trie keys",
+		Category: flags.PerfCategory,
+	}
 )
