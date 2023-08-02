@@ -1,0 +1,12 @@
+language: go
+
+go:
+  - 1.13
+  - stable
+  - tip
+
+install: true
+
+script:
+  - make all
+  - make test
