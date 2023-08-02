@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/alexbakker/gonano/nano/internal/util"
+	"littleriver.cc/go-nano/nano/internal/util"
 )
 
 func TestNanoAddress(t *testing.T) {

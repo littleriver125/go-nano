@@ -7,12 +7,12 @@ import (
 	"path"
 	"syscall"
 
-	"github.com/alexbakker/gonano/cmd/nano-node/config"
-	"github.com/alexbakker/gonano/nano/node"
-	"github.com/alexbakker/gonano/nano/node/proto"
-	"github.com/alexbakker/gonano/nano/store"
-	"github.com/alexbakker/gonano/nano/store/genesis"
 	"github.com/spf13/cobra"
+	"littleriver.cc/go-nano/cmd/nano-node/config"
+	"littleriver.cc/go-nano/nano/node"
+	"littleriver.cc/go-nano/nano/node/proto"
+	"littleriver.cc/go-nano/nano/store"
+	"littleriver.cc/go-nano/nano/store/genesis"
 )
 
 var (
@@ -38,7 +38,7 @@ var (
 func main() {
 	// set the umask of this process to 077
 	// this ensures all written files are only readable/writable by the current user
-	syscall.Umask(077)
+	//syscall.Umask(077)
 
 	if err := rootCmd.Execute(); err != nil {
 		logger.Fatalf("error: %s", err.Error())

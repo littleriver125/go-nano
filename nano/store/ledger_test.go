@@ -6,9 +6,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/alexbakker/gonano/nano/block"
-	"github.com/alexbakker/gonano/nano/node/proto"
-	"github.com/alexbakker/gonano/nano/store/genesis"
+	"littleriver.cc/go-nano/nano/block"
+	"littleriver.cc/go-nano/nano/node/proto"
+	"littleriver.cc/go-nano/nano/store/genesis"
 )
 
 type testLedger struct {

@@ -5,9 +5,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/alexbakker/gonano/nano/internal/uint128"
-	"github.com/alexbakker/gonano/nano/internal/util"
 	"github.com/shopspring/decimal"
+	"littleriver.cc/go-nano/nano/internal/uint128"
+	"littleriver.cc/go-nano/nano/internal/util"
 )
 
 const (

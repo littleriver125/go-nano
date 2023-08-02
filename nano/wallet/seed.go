@@ -5,9 +5,9 @@ import (
 	"encoding/binary"
 	"encoding/hex"
 
-	"github.com/alexbakker/gonano/nano/crypto/ed25519"
-	"github.com/alexbakker/gonano/nano/crypto/random"
 	"golang.org/x/crypto/blake2b"
+	"littleriver.cc/go-nano/nano/crypto/ed25519"
+	"littleriver.cc/go-nano/nano/crypto/random"
 )
 
 const (

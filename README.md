@@ -1,4 +1,4 @@
-# gonano [![Build Status](https://travis-ci.org/alexbakker/gonano.svg?branch=master)](https://travis-ci.org/alexbakker/gonano) [![Documentation](https://godoc.org/github.com/alexbakker/gonano?status.svg)](https://godoc.org/github.com/alexbakker/gonano) 
+# gonano [![Build Status](https://travis-ci.org/alexbakker/gonano.svg?branch=master)](https://travis-ci.org/alexbakker/gonano) [![Documentation](https://godoc.org/littleriver.cc/go-nano?status.svg)](https://godoc.org/littleriver.cc/go-nano) 
 
 __gonano__ is a __WIP__ implementation of the Nano cryptocurrency in Go.
 

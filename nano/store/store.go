@@ -3,8 +3,8 @@ package store
 import (
 	"errors"
 
-	"github.com/alexbakker/gonano/nano"
-	"github.com/alexbakker/gonano/nano/block"
+	"littleriver.cc/go-nano/nano"
+	"littleriver.cc/go-nano/nano/block"
 )
 
 var (

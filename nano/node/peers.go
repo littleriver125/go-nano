@@ -4,7 +4,7 @@ import (
 	"errors"
 	"net"
 
-	"github.com/alexbakker/gonano/nano/crypto/random"
+	"littleriver.cc/go-nano/nano/crypto/random"
 )
 
 var (

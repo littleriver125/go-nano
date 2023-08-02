@@ -20,8 +20,8 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/alexbakker/gonano/nano/crypto/ed25519/internal/edwards25519"
 	"golang.org/x/crypto/blake2b"
+	"littleriver.cc/go-nano/nano/crypto/ed25519/internal/edwards25519"
 )
 
 const (

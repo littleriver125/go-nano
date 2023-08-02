@@ -3,10 +3,10 @@ package genesis
 import (
 	"fmt"
 
-	"github.com/alexbakker/gonano/nano"
-	"github.com/alexbakker/gonano/nano/block"
-	"github.com/alexbakker/gonano/nano/internal/util"
-	"github.com/alexbakker/gonano/nano/node/proto"
+	"littleriver.cc/go-nano/nano"
+	"littleriver.cc/go-nano/nano/block"
+	"littleriver.cc/go-nano/nano/internal/util"
+	"littleriver.cc/go-nano/nano/node/proto"
 )
 
 type Genesis struct {

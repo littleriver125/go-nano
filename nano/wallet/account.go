@@ -1,9 +1,9 @@
 package wallet
 
 import (
-	"github.com/alexbakker/gonano/nano"
-	"github.com/alexbakker/gonano/nano/block"
-	"github.com/alexbakker/gonano/nano/crypto/ed25519"
+	"littleriver.cc/go-nano/nano"
+	"littleriver.cc/go-nano/nano/block"
+	"littleriver.cc/go-nano/nano/crypto/ed25519"
 )
 
 // Account represents an account in a Nano wallet.

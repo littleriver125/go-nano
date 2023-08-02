@@ -4,7 +4,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/alexbakker/gonano/nano/crypto/ed25519"
+	"littleriver.cc/go-nano/nano/crypto/ed25519"
 )
 
 const (

@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"net"
 
-	"github.com/alexbakker/gonano/nano/internal/util"
+	"littleriver.cc/go-nano/nano/internal/util"
 )
 
 type KeepAlivePacket struct {

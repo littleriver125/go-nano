@@ -1,6 +1,6 @@
 package proto
 
-import "github.com/alexbakker/gonano/nano/block"
+import "littleriver.cc/go-nano/nano/block"
 
 type BlockPacket struct {
 	Type  byte

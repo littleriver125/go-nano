@@ -5,9 +5,9 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/alexbakker/gonano/nano"
-	"github.com/alexbakker/gonano/nano/wallet"
 	"github.com/spf13/cobra"
+	"littleriver.cc/go-nano/nano"
+	"littleriver.cc/go-nano/nano/wallet"
 )
 
 var (

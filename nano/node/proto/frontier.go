@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/alexbakker/gonano/nano"
-	"github.com/alexbakker/gonano/nano/internal/util"
+	"littleriver.cc/go-nano/nano"
+	"littleriver.cc/go-nano/nano/internal/util"
 )
 
 type FrontierReqPacket struct {

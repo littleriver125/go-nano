@@ -1,6 +1,6 @@
-module github.com/alexbakker/gonano
+module littleriver.cc/go-nano
 
-go 1.13
+go 1.19
 
 require (
 	github.com/dgraph-io/badger v1.6.0

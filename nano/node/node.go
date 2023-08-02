@@ -6,10 +6,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/alexbakker/gonano/nano"
-	"github.com/alexbakker/gonano/nano/block"
-	"github.com/alexbakker/gonano/nano/node/proto"
-	"github.com/alexbakker/gonano/nano/store"
+	"littleriver.cc/go-nano/nano"
+	"littleriver.cc/go-nano/nano/block"
+	"littleriver.cc/go-nano/nano/node/proto"
+	"littleriver.cc/go-nano/nano/store"
 )
 
 var (
